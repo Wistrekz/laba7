@@ -9,8 +9,8 @@
 		{
 			$sum += 1/((2*$x + 1) * pow(a, (2*$x+1)));
 		}
-		$r = M_PI/2 - $sum;
-		echo $r;
+		$sum *= 2;
+		echo $sum;
 	}
 
 
